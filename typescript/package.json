@@ -1,0 +1,21 @@
+{
+  "name": "dojo-xlr8-typescript",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "repository": "https://github.com/goth-octo/dojo-xlr8",
+  "author": "Thierry | GOTH",
+  "license": "MIT",
+  "scripts": {
+    "deploymentFrequency": "ts-node src/deploymentFrequency.ts",
+    "changeFailureRate": "ts-node src/changeFailureRate.ts",
+    "meanTimeToRestore": "ts-node src/meanTimeToRestore.ts",
+    "leadTime": "ts-node src/leadTime.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
