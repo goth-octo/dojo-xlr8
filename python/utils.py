@@ -6,6 +6,9 @@ TAGS_FILE = "repository_tags.json"
 COMMITS_FILE = "repository_commits.json"
 
 
+NOMBRE_DE_JOURS_OUVRÉS_DANS_LE_MOIS = 20
+NOMBRE_DE_JOUR_DANS_UNE_ITÉRATION = 10
+
 Tag = NamedTuple("Tag", [("name", str), ("datetime", datetime)])
 Commit = NamedTuple("Commit", [("sha", str), ("datetime", datetime)])
 

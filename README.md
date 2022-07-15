@@ -12,8 +12,10 @@
 Lancer le script associé à la métrique qui vous a été attribuée :
 
 ```sh
-python deployment_frequency.py
+python -m python.deployment_frequency
 ```
+
+> À lancer depuis la racine du projet git
 
 Des fonctions utiles sont à disposition dans le fichier `utils.py`
 
@@ -24,5 +26,7 @@ Lancer le script associé à la métrique qui vous a été attribuée :
 ```sh
 yarn deploymentFrequency
 ```
+
+> À lancer depuis le dossier typescript
 
 Des fonctions utiles sont à disposition dans le fichier `utils.ts`
