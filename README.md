@@ -9,17 +9,23 @@
 
 ## Python
 
-Lancer le script associé à la métrique qui vous a été attribuée :
+Lancer le script associé à la métrique qui vous a été attribuée (oui, c'est un point et non un slash) :
 
 ```sh
-python -m python.deployment_frequency
+python3 -m python.deployment_frequency
 ```
 
-> À lancer depuis la racine du projet git
+> À lancer depuis la **racine** du projet git
 
-Des fonctions utiles sont à disposition dans le fichier `utils.py`
+Des fonctions utiles sont à disposition dans le fichier `utils.py` et des constantes aussi.
 
 ## TypeScript
+
+Installer les dépendances :
+
+```sh
+yarn
+```
 
 Lancer le script associé à la métrique qui vous a été attribuée :
 
