@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from typing import NamedTuple
 
 TAGS_FILE = "repository_tags.json"
@@ -8,6 +8,8 @@ COMMITS_FILE = "repository_commits.json"
 
 WORKED_DAYS_IN_A_MONTH = 20
 WORKED_DAYS_IN_A_SPRINT = 10
+
+LAST_DAY_OF_SPRINT = datetime(2021, 4, 17, 0, 0, tzinfo=timezone(timedelta(seconds=7200)))
 
 Tag = NamedTuple("Tag", [("name", str), ("datetime", datetime)])
 Commit = NamedTuple("Commit", [("sha", str), ("datetime", datetime)])
